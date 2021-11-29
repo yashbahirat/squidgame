@@ -113,6 +113,24 @@ footer ul li a:hover ion-icon{
     color: #ff0066;
 }
 
+@media (max-width: 450px) {
+    main {
+        padding: 25px;
+    }
+    
+    #top-nav{
+        padding: 25px;
+    }
+
+    #logo {
+        max-width: 120px;
+    }
+
+    footer ul {
+        bottom: 20px;
+        left: 25px;
+    }
+}
 
 
 
