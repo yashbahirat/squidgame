@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #120e0f;
+    background: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+#top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 35px;
+}
+
+#logo {
+    max-width: 135px;
+    width: 100%;
+}
+
+main {
+    padding: 40px;
+}
+
+#hero-img{
+    max-width: 400px;
+    width: 100%;
+}
+
+.content {
+    max-width: 600px;
+    margin-top: 12px;
+}
+
+.content p {
+    font-size: 1.15em;
+    color: rgba(255, 255, 255, .9);
+    line-height: 1.51em;
+}
+
+#btn {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    color: #fff;
+    padding: 13px 20px;
+    background-color: #e83c80;
+    border-radius: 3px;
+    vertical-align: middle;
+    transition: 0.25s;
+}
+
+#btn:hover {
+    background-color: #aa2c5e;
+    letter-spacing: 1px;
+}
+
+#btn ion-icon {
+    font-size: 1.6em;
+    vertical-align: middle;
+    margin-right: 4px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+#btn:hover ion-icon{
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    
+}
+
+footer ul li {
+    list-style: none;
+    margin-right: 18px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer ul li a ion-icon {
+    font-size: 1.56em;
+    transition: .25s;
+}
+
+footer ul li a:hover ion-icon{
+    transform: scale(1.25);
+    color: #ff0066;
+}
+
+
+
+
+
